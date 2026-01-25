@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+*.ipynb_checkpoints/
+
+# Data & Outputs (Privacy - Critical)
+data/
+out/
+out-*/
+*.log
+*.pt
+*.pth
+*.txt 
+
+# Archive (legacy stuff)
+_archive/
+
+# Allow specific documentation
+!requirements.txt
+!LICENSE
+!README.md

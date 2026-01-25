@@ -1,0 +1,11 @@
+n_layer = 2     
+n_head = 2          
+n_embd = 32         
+block_size = 64     
+max_iters = 200     
+eval_interval = 10  
+log_interval = 5      
+batch_size = 2     
+gradient_accumulation_steps = 2 
+learning_rate = 6e-4 
+compile = False

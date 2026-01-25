@@ -1,0 +1,14 @@
+out_dir = 'out-hetero-dft'
+wandb_project = 'dft_hetero'
+wandb_run_name = 'dft_run_1'
+dataset = 'heterogeneous'
+batch_size = 32
+block_size = 256
+max_iters = 5000
+lr_decay_iters = 5000
+eval_interval = 250
+log_interval = 10
+n_layer = 6
+n_head = 4
+dropout = 0.2
+n_embd = 64
