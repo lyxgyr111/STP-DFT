@@ -37,7 +37,7 @@
 
 | Zero-Padding (Baseline) | Projection-Padding (Ours) |
 |:-----------------------:|:-------------------------:|
-| ![Zero Attention](assets/attention_zero_padding.pdf) | ![Proj Attention](assets/attention_projection_padding.pdf) |
+| ![Zero Attention](assets/attention_zero_padding_01.png) | ![Proj Attention](assets/attention_projection_padding_01.png) |
 | *存在大量红色虚线框内的无效注意力* | *注意力集中在有效语义区域* |
 
 *(更多详细对比请见 `assets/` 目录下的 PDF 文件)*
