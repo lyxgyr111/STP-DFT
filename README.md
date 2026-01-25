@@ -1,9 +1,8 @@
 # STP-DFT: 基于投影填充的无维度 Transformer (Dimension-Free Transformer)
 
-![nanoGPT](assets/nanogpt.jpg)
-*(注：此处建议替换为论文中的架构图或 loss 对比图，如 assets/loss_curve_comparison.png)*
+![nanoGPT](assets/jiagoutu.png)
 
-本项目是论文 **STP-DFT** (Temp Title) 的官方 PyTorch 实现代码。
+本项目是论文 **STP-DFT** 的官方 PyTorch 实现代码。
 
 我们提出了一种通过 **投影填充 (Projection Padding)** 机制来高效处理变长序列（Heterogeneous Batches）的方法，旨在解决传统 Transformer 在处理不同长度数据时常用的 **零填充 (Zero-Padding)** 所导致的计算资源浪费问题。
 
@@ -58,19 +57,3 @@ python scripts/visualize_attention.py
 
 代码库中包含了我们在 OpenWebText 和 Shakespeare 数据集上的对比实验配置。详细的 Loss 曲线和注意力热力图请参考 `assets/` 目录或论文正文。
 
-## 引用
-
-如果您觉得本项目对您的研究有帮助，请引用我们的论文：
-
-```bibtex
-@article{YourName2026STPDFT,
-  title={STP-DFT: Dimension-Free Transformer with Projection Padding},
-  author={Your Name and Collaborators},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
-
-## 许可证
-
-MIT License
