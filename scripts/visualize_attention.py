@@ -297,7 +297,7 @@ if __name__ == '__main__':
     create_publication_plot(
         attention_matrix=att_zero,
         title="Attention Mechanism: Zero-Padding Baseline",
-        filename="attention_zero_padding.pdf",
+        filename="attention_zero_padding.png",
         tokens=decoded_tokens,
         is_zero_padding=True,
         max_len=block_size
@@ -309,7 +309,7 @@ if __name__ == '__main__':
     create_publication_plot(
         attention_matrix=att_proj,
         title="Attention Mechanism: Projection-Padding (Ours)",
-        filename="attention_projection_padding.pdf",
+        filename="attention_projection_padding.png",
         tokens=decoded_tokens
     )
     print("\n所有可视化任务完成。")
