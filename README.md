@@ -37,7 +37,7 @@
 
 | Zero-Padding (Baseline) | Projection-Padding (Ours) |
 |:-----------------------:|:-------------------------:|
-| ![Zero Attention](assets/attention_zero_padding_small.png) | ![Proj Attention](assets/attention_projection_padding_small.png) |
+| ![Zero Attention](assets/attention_zero_padding.pdf) | ![Proj Attention](assets/attention_projection_padding.pdf) |
 | *存在大量红色虚线框内的无效注意力* | *注意力集中在有效语义区域* |
 
 *(更多详细对比请见 `assets/` 目录下的 PDF 文件)*
@@ -73,18 +73,9 @@ python src/train.py src/config/train_shakespeare_char.py
 python scripts/visualize_attention.py
 ```
 
-## 📝 引用 (Citation)
 
-如果您觉得本项目对您的研究有帮助，请引用我们的论文：
 
-```bibtex
-@article{YourName2026STPDFT,
-  title={STP-DFT: Dimension-Free Transformer with Projection Padding},
-  author={Your Name and Collaborators},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
 
-## 许可证
-MIT License
+
+
+
