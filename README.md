@@ -1,10 +1,10 @@
-# STP-DFT: 基于投影填充的无维度 Transformer (Dimension-Free Transformer)
+# STP-DFT: 基于投影填充的维度自由 Transformer (Dimension-Free Transformer)
 
 ![Architecture](assets/jiagoutu.png)
 
 本项目是论文 **STP-DFT** (Dimension-Free Transformer with Projection Padding) 的官方 PyTorch 实现代码。
 
-我们针对变长序列（Heterogeneous Batches）计算效率低下的问题，提出了一种基于 **投影填充 (Projection Padding)** 的新型注意力机制。该方法通过引入半张量积（Semi-Tensor Product, STP）理论，实现了真正的“无维度”计算，从根本上解决了传统 Transformer 在处理不定长输入时依赖 **零填充 (Zero-Padding)** 导致的显存浪费与计算冗余问题。
+我们针对变长序列（Heterogeneous Batches）计算效率低下的问题，提出了一种基于 **投影填充 (Projection Padding)** 的新型注意力机制。该方法通过引入半张量积（Semi-Tensor Product, STP）理论，实现了真正的“维度自由”计算，从根本上解决了传统 Transformer 在处理不定长输入时依赖 **零填充 (Zero-Padding)** 导致的显存浪费与计算冗余问题。
 
 ## 🔬 核心创新 (Key Contributions)
 
